@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using TP_MODUL5_103022400104;
+
+DataGeneric<string> dataString = new DataGeneric<string>("103022400104");
+dataString.PrintData();
